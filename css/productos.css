@@ -1,0 +1,62 @@
+
+:root {
+    --color-principal: #FF5A5F;
+    --color-primary-hover: #d64246;
+    --color-menu-texto: #A22C29;
+    --color-verde: #04A75B;
+    --color-negro: #444A47;
+    --color-fondo: #F7F9FD;
+    --color-footer: #151515;
+    font-size: 62.5%;
+}
+
+.container-productos{
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    
+   
+}
+.container-productos__flex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    
+    border-radius: 50% ;
+    background-image: url('https://images.pexels.com/photos/1104014/pexels-photo-1104014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    
+    border: 3px solid var(--color-primary-hover);
+    transition: transform 400ms;
+    transition-timing-function: ease-in;
+    
+}
+.circle:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.container-productos_mujer h1{
+    font-size: 4rem;
+    color: #444A47;
+}
+.container-productos_hombre h1{
+    font-size: 4rem;
+    color: #0d0f0e;
+}
+.container-productos_ninio h1{
+    font-size: 4rem;
+    color: #444A47;
+}
+
+
+
